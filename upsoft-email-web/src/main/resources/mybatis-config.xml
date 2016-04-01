@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <typeAliases>
+        <package name="com.upsoft.email.web.entity"/>
+    </typeAliases>
+    <mappers>
+
+    	<!-- 
+        <mapper resource="mybatis/mapper/CityMapper.xml"/>
+         -->
+    </mappers>
+    <!-- 
+    <plugins>
+    	<plugin interceptor="com.github.pagehelper.PageHelper">
+    		<property name ="dialect" value = "phoenix" />
+    		<property name = "offsetAsPageNum" value = "true" />
+    		<property name = "rowBoundsWithCount" value = "false" />
+    	</plugin>
+    	
+    </plugins>
+     -->
+</configuration>
